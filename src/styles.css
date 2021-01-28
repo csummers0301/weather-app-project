@@ -23,6 +23,11 @@ p {
 ul {
   list-style: none;
 }
+a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
 .wrapper {
   padding: 10px;
   margin-top: 40px;
