@@ -1,0 +1,75 @@
+h1 {
+  margin-top: 0px;
+  color: #fbc00a;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+h2 {
+  margin-top: 0px;
+  color: #767983;
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+}
+h4 {
+  color: #f95509;
+  font-family: "Quicksand", sans-serif;
+}
+p {
+  color: #a1a4aa;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  padding: 15px, 20px;
+}
+ul {
+  list-style: none;
+}
+.wrapper {
+  padding: 10px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 800px;
+}
+.date,
+.time {
+  color: #a1a4aa;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  text-align: right;
+}
+
+.city {
+  text-align: right;
+  padding: 24px;
+}
+.card-title {
+  color: #2ec1df;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.card-body {
+  text-align: center;
+}
+.card-text {
+  color: #f95509;
+}
+.search-button,
+.current-location {
+  border-radius: 5px;
+  border: none;
+  background: #2ec0df;
+  color: #fff;
+  font-size: 16px;
+  line-height: 12px;
+  padding: 10px 12px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+.humidity,
+.wind {
+  color: #a1a4aa;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
