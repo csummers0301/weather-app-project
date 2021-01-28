@@ -25,122 +25,109 @@
     </head>
     <body>
       <div class="wrapper">
-          <div class="row">
-            <div class= "col">
-              <form id="city-search">
-                <input
-                  type="text"
-                  id="city-input"
-                  placeholder="Enter a city"
-                  autofocus="on"
-                />
-                <input type="submit" value="Search" class="search-button"/>
-              </form>
-              <div class="col">
-                <button
-                  type="submit"
-                  class="current-location"
-                  id="current-location"
-                  value="Current Location"
-                >Current Location
-                </button>
-                </div>
+        <div class="row">
+          <div class="col">
+            <form id="city-search">
+              <input
+                type="text"
+                id="city-input"
+                placeholder="Enter a city"
+                autofocus="on"
+              />
+              <input type="submit" value="Search" class="search-button" />
+            </form>
+            <div class="col">
+              <button
+                type="submit"
+                class="current-location"
+                id="current-location"
+                value="Current Location"
+              >
+                Current Location
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col date">
+              <h2 id="current-date"></h2>
+              <div class="col time">
+                <p id="current-time"></p>
               </div>
-              <div class="col">
-                <div class="col date">
-                  <h2 id="current-date"></h2>
-                  <div class="col time">
-                    <p id="current-time"></p>
-                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col city">
+            <h1 id="searched-city"></h1>
+            <p id="weather-conditions"></p>
+            <h4><span class="temperature" id="temperature"></span></h4>
+            <ul>
+              <li>
+                <span class="humidity" id="humidity"></span>
+              </li>
+              <li>
+                <span class="wind" id="wind"></span>
+              </li>
+            </ul>
+          </div>
+          <div class="col weather-image">
+            <img
+              src="src/images/partly-cloudy1.png"
+              alt="partly cloudy"
+              width="180px"
+            />
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Monday</h5>
+                  <img src="src/images/snow.png" alt="rainy" height="35px" />
+                  <p class="card-text">30°/25°</p>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col city">
-                <h1 id="searched-city"></h1>
-                <p id="weather-conditions"></p>
-                <h4><span class="temperature" id="temperature"></span></h4>
-                <ul>
-                  <li>
-                    <span class="humidity" id="humidity"></span>
-                  </li>
-                  <li>
-                    <span class="wind" id="wind"></span>
-                  </li>
-                </ul>
+            <div class="col-sm">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Tuesday</h5>
+                  <img
+                    src="src/images/partly-cloudy1.png"
+                    alt="partly cloudy"
+                    height="35px"
+                  />
+                  <p class="card-text">40°/28°</p>
+                </div>
               </div>
-              <div class="col weather-image">
-                <img
-                  src="src/images/partly-cloudy1.png"
-                  alt="partly cloudy"
-                  width="180px"
-                />
+            </div>
+            <div class="col-sm">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Wednesday</h5>
+                  <img src="src/images/sunny.png" alt="sunny" height="35px" />
+                  <p class="card-text">35°/30°</p>
+                </div>
               </div>
-              <div class="row">
-                <div class="col-sm">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Monday</h5>
-                      <img
-                        src="src/images/snow.png"
-                        alt="rainy"
-                        height="35px"
-                      />
-                      <p class="card-text">30°/25°</p>
-                    </div>
-                  </div>
+            </div>
+            <div class="col-sm">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Thursday</h5>
+                  <img
+                    src="src/images/rain1.png"
+                    alt="partly cloudy"
+                    height="35px"
+                  />
+                  <p class="card-text">41°/30°</p>
                 </div>
-                <div class="col-sm">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Tuesday</h5>
-                      <img
-                        src="src/images/partly-cloudy1.png"
-                        alt="partly cloudy"
-                        height="35px"
-                      />
-                      <p class="card-text">40°/28°</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Wednesday</h5>
-                      <img
-                        src="src/images/sunny.png"
-                        alt="sunny"
-                        height="35px"
-                      />
-                      <p class="card-text">35°/30°</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Thursday</h5>
-                      <img
-                        src="src/images/rain1.png"
-                        alt="partly cloudy"
-                        height="35px"
-                      />
-                      <p class="card-text">41°/30°</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Friday</h5>
-                      <img
-                        src="src/images/sunny.png"
-                        alt="sunny"
-                        height="35px"
-                      />
-                      <p class="card-text">33°/30°</p>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Friday</h5>
+                  <img src="src/images/sunny.png" alt="sunny" height="35px" />
+                  <p class="card-text">33°/30°</p>
                 </div>
               </div>
             </div>
