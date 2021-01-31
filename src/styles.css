@@ -24,17 +24,18 @@ ul {
   list-style: none;
 }
 a {
-  display: block;
   text-decoration: none;
-  text-align: center;
 }
+
 .wrapper {
+  border: 1px solid #a1a4aa;
+  border-radius: 10px;
   padding: 10px;
   margin-top: 40px;
   margin-right: auto;
   margin-left: auto;
-
   max-width: 800px;
+  color: #a1a4aa;
 }
 .date,
 .time {
@@ -43,14 +44,20 @@ a {
   font-size: 24px;
   text-align: right;
 }
-
 .city {
   text-align: right;
   padding: 24px;
 }
+.col-sm {
+  max-width: 140px;
+  display: block;
+  padding-left: 30px;
+  margin: 0 auto;
+}
 .card-title {
   color: #2ec1df;
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
   font-weight: 600;
 }
 .card-body {
@@ -58,6 +65,7 @@ a {
 }
 .card-text {
   color: #f95509;
+  font-size: 16px;
 }
 .search-button,
 .current-location {
