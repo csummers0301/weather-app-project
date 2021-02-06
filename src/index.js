@@ -1,14 +1,13 @@
 function showTemperature(response) {
-  console.log(response);
-  document.querySelector("#searched-city").innerHTML = response.data.name;
   let temperatureElement = document.querySelector("#temperature");
-  let temperature = Math.round(response.data.main.temp);
-  temperatureElement.innerHTML = `${temperature}°F`;
+  let cityElement= document.querySelector("#searched-city");
   let humidityElement = document.querySelector("#humidity");
   let humidity = response.data.main.humidity;
-  humidityElement.innerHTML = `Humidity: ${humidity}%   `;
   let windElement = document.querySelector("#wind");
   let wind = Math.round(response.data.wind.speed);
+  cityElement.innerHTML=response.data.name;
+  temperatureElement.innerHTML = Math.round(response.data.main.temp);
+  humidityElement.innerHTML=`Humidity: ${humidity}%`
   windElement.innerHTML = `Wind: ${wind} mph`;
   document.querySelector("#weather-conditions").innerHTML =
     response.data.weather[0].main;

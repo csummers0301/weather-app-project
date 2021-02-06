@@ -1,3 +1,6 @@
+body {
+  color: blue;
+}
 h1 {
   margin-top: 0px;
   color: #fbc00a;
@@ -51,7 +54,7 @@ a {
 .col-sm {
   max-width: 140px;
   display: block;
-  padding-left: 30px;
+  padding-left: 35px;
   margin: 0 auto;
 }
 .card-title {
