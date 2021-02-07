@@ -1,8 +1,15 @@
 body {
-  color: blue;
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  color: white;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 800px;
 }
+
 h1 {
   margin-top: 0px;
+  font-size: 48px;
   color: #fbc00a;
   font-family: "Raleway", sans-serif;
   font-weight: 900;
@@ -11,7 +18,7 @@ h2 {
   margin-top: 0px;
   color: #767983;
   font-family: "Raleway", sans-serif;
-  font-size: 28px;
+  font-size: 24px;
 }
 h4 {
   color: #f95509;
@@ -27,10 +34,12 @@ ul {
   list-style: none;
 }
 a {
+  color: lightgrey;
   text-decoration: none;
 }
 
 .wrapper {
+  background-color: white;
   border: 1px solid #a1a4aa;
   border-radius: 10px;
   padding: 10px;
@@ -58,7 +67,7 @@ a {
   margin: 0 auto;
 }
 .card-title {
-  color: #2ec1df;
+  color: #1495c4;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -70,11 +79,10 @@ a {
   color: #f95509;
   font-size: 16px;
 }
-.search-button,
-.current-location {
+.search-button {
   border-radius: 5px;
-  border: none;
-  background: #2ec0df;
+  border: 1px #1495c4;
+  background: #1495c4;
   color: #fff;
   font-size: 16px;
   line-height: 12px;
@@ -88,4 +96,9 @@ a {
   color: #a1a4aa;
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
+}
+.icon img {
+  width: 100%;
+  position: absolute;
+  top: -50%;
 }
