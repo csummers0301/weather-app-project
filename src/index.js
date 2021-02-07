@@ -1,5 +1,4 @@
 function showTemperature(response) {
-  console.log()
   let temperatureElement = document.querySelector("#temperature");
   let cityElement= document.querySelector("#searched-city");
   let humidityElement = document.querySelector("#humidity");
@@ -26,22 +25,6 @@ function handleSubmit(event) {
   let city = document.querySelector("#city-input").value;
   search(city);
 }
-
-function handlePosition(position) {
-  let latitude = position.coords.latitude;
-  let longitude = position.coords.longitude;
-  let units = "imperial";
-  let apiKey = "9613899aeff6104a2852d1a6d28e49cf";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=${units}&appid=${apiKey}`;
-  axios.get(apiUrl).then(showTemperature);
-}
-function getCurrentPosition(event) {
-  event.preventDefault();
-  navigator.geolocation.getCurrentPosition(handlePosition);
-}
-let locationButton = document.querySelector("#current-location");
-locationButton.addEventListener("click", getCurrentPosition);
-
 let now = new Date();
 let date = now.getDate();
 let days = [
