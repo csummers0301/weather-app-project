@@ -4,7 +4,7 @@ body {
   margin-top: 40px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 800px;
+  max-width: 700px;
 }
 
 h1 {
@@ -42,11 +42,11 @@ a {
   background-color: white;
   border: 1px solid #a1a4aa;
   border-radius: 10px;
-  padding: 10px;
-  margin-top: 40px;
+  padding: 50px;
+  margin-top: 60px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 800px;
+  max-width: 700px;
   color: #a1a4aa;
 }
 .date,
@@ -59,25 +59,6 @@ a {
 .city {
   text-align: right;
   padding: 24px;
-}
-.col-sm {
-  max-width: 140px;
-  display: block;
-  padding-left: 35px;
-  margin: 0 auto;
-}
-.card-title {
-  color: #1495c4;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-}
-.card-body {
-  text-align: center;
-}
-.card-text {
-  color: #f95509;
-  font-size: 16px;
 }
 .search-button {
   border-radius: 5px;

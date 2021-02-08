@@ -71,3 +71,6 @@ let form = document.querySelector("#city-search");
 form.addEventListener("submit", handleSubmit);
 
 search("New York");
+
+
+
